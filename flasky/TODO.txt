@@ -1,0 +1,33 @@
+Chapter 1:
+git clone https://github.com/miguelgrinberg/flasky.git
+
+* Virtual environment install:
+# setup easy install 
+$ python ez_setup.py 
+# install virtualenv
+$ easy_install virtualenv
+
+* setup virtual environment for project:
+c:\...\flasky> virtualenv venv
+
+* activate virtual environment
+c:\...\flasky>venv\Scripts\activate
+
+
+* Install Flask in virtual environment:
+(venv) c:\...\flasky> pip install flask
+
+
+Chapter 2:
+* Launch application
+(venv) c:\...\flasky> python hello.py
+
+* install command line parser extension
+(venv) c:\...\flasky> pip install flask-script
+
+
+Chapter 3:
+* Install bootstrap (twitter UI library)
+(venv) c:\...\flasky> pip install flask-bootstrap
+
+
