@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -x
 #creating a module(class) (on the server):
 
 echo creating module: $1
