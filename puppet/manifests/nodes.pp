@@ -1,12 +1,12 @@
 node default {
   class { 'puppet': }
-  package { 'apt-file': 			ensure => latest,  }
-  package { 'git': 					ensure => latest,  }
-  package { 'ntfs-3g': 				ensure => latest,  }
-  package { 'samba': 				ensure => latest,  }
+  class { 'mygit': }
+  package { 'apt-file': 		ensure => latest,  }
+  package { 'ntfs-3g': 			ensure => latest,  }
+  package { 'samba': 			ensure => latest,  }
   package { 'samba-common-bin': 	ensure => latest,  }
   package { 'tightvncserver':    	ensure => latest,  }
-  package { 'vim':    				ensure => latest,  }
+  class { 'myvim':  }
 }
 
 node pi-svr-puppet inherits default {
