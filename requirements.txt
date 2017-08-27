@@ -1,0 +1,2 @@
+# install flake8 wherever this repo is used to apply PEP8 precommit hook
+flake8==3.4.1

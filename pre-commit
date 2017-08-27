@@ -1,0 +1,3 @@
+#!/bin/sh
+# TODO: copy this to .git/hooks/ when cloning the repo
+flake8 .
