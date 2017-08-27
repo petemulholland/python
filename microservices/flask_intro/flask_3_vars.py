@@ -3,6 +3,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
+
 @app.route('/api')
 def my_microservice():
     print('**********************************************')
